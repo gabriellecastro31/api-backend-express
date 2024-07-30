@@ -1,0 +1,25 @@
+{
+  "name": "api-bke-express",
+  "version": "1.0.0",
+  "description": "api node com express para backend do 2 SEMESTRE (3MODULO) IFSP",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellecastro31/api-backend-express.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "zod",
+    "mvc"
+  ],
+  "author": "Gabrielle Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellecastro31/api-backend-express/issues"
+  },
+  "homepage": "https://github.com/gabriellecastro31/api-backend-express#readme"
+}
