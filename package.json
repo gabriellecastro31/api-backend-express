@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "api node com express para backend do 2 SEMESTRE (3MODULO) IFSP",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/gabriellecastro31/api-backend-express/issues"
   },
-  "homepage": "https://github.com/gabriellecastro31/api-backend-express#readme"
+  "homepage": "https://github.com/gabriellecastro31/api-backend-express#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
