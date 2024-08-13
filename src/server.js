@@ -1,16 +1,9 @@
 import express from 'express'
+import authRouter from './routers/authRouter.js'
 
 const app = express()
 
-app.get('/auth/signup', (req, res) => {
-res.json({message: "Rota de Auth/Signup"})
-})
-app.get('/auth/login', (req, res) => {
-res.json({message: "Rota de auth/login"})
-})
-app.get('/auth/logout', (req, res) => {
-res.json({message: "Rota de auth/logout"})
-})
+
 
 app.post('/account', (req, res) => {
 res.json({message: "Rota de POST Account"})
